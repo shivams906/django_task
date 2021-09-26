@@ -44,7 +44,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = env("DEBUG")
 
 if DEBUG:
-    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ["immense-springs-21952.herokuapp.com", "127.0.0.1"]
 else:
     ALLOWED_HOSTS = ["immense-springs-21952.herokuapp.com"]
 
