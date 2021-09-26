@@ -5,7 +5,7 @@ from django.db import models
 
 
 class UserManager(BaseUserManager):
-    def create_user(self, email, password, username, address=None):
+    def create_user(self, email, password, username=None, address=None):
         if not email:
             raise ValueError("Users must have an email address.")
         if not password:
@@ -20,7 +20,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-    def create_superuser(self, email, password, username, address=None):
+    def create_superuser(self, email, password, username=None, address=None):
         if not email:
             raise ValueError("Users must have an email address.")
         if not password:
