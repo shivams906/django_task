@@ -46,7 +46,7 @@ DEBUG = env("DEBUG")
 if DEBUG:
     ALLOWED_HOSTS = []
 else:
-    ALLOWED_HOSTS = ["https://immense-springs-21952.herokuapp.com"]
+    ALLOWED_HOSTS = ["immense-springs-21952.herokuapp.com"]
 
 
 # Application definition
