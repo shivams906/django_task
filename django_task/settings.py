@@ -187,4 +187,6 @@ if DEBUG:
         "http://localhost:8080",
     )
 else:
-    CORS_ORIGIN_WHITELIST = ()
+    CORS_ORIGIN_WHITELIST = (
+        "https://nifty-cori-e0e3e7.netlify.app",
+    )
