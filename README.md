@@ -1,1 +1,1 @@
-Demo is hosted at [Heroku](ttps://immense-springs-21952.herokuapp.com/api/schema/redoc/)
+Demo is hosted at [Heroku](https://immense-springs-21952.herokuapp.com/api/schema/redoc/)
